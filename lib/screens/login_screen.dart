@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget {
           onChanged: bloc.changeEmail,
           keyboardType: TextInputType.emailAddress,
           decoration: InputDecoration(
-            hintText: 'you@example.com',
+            // hintText: 'you@example.com',
             labelText: 'Email Address',
             // Take from snapshot, the error message
             errorText: snapshot.error,
@@ -66,8 +66,8 @@ class LoginPage extends StatelessWidget {
           // onChanged listens to TextField changes and adds to bloc.changeEmail with '_email.sink.add'
           onChanged: bloc.changeName,
           decoration: InputDecoration(
-            hintText: 'XYZ',
-            labelText: 'Please Enter your name',
+            // hintText: 'XYZ',
+            labelText: 'Name',
             // Take from snapshot, the error message
             errorText: snapshot.error,
           ),
@@ -87,7 +87,7 @@ class LoginPage extends StatelessWidget {
           // onChanged listens to TextField changes and adds to bloc.changeEmail with '_email.sink.add'
           onChanged: bloc.changeTelephone,
           decoration: InputDecoration(
-            hintText: '63608521451234567890',
+            // hintText: '6360852145',
             labelText: 'Mobile number',
             // Take from snapshot, the error message
             errorText: snapshot.error,
@@ -104,7 +104,7 @@ class LoginPage extends StatelessWidget {
           keyboardType: TextInputType.visiblePassword,
           onChanged: bloc.changePassword,
           decoration: InputDecoration(
-            hintText: 'Password',
+            // hintText: 'Password',
             labelText: 'Password',
             errorText: snapshot.error,
           ),

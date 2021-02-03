@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:register_form/screens/user_details.dart';
 import 'package:register_form/src/app.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(User());
 }
 
 class MyApp extends StatelessWidget {
